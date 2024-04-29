@@ -1,0 +1,36 @@
+body {
+    padding-top: 56px; /* Ajusté pour la barre de navigation fixe en haut */
+    font-family: 'Arial', sans-serif; /* Assure une police cohérente */
+}
+
+.header {
+    background: #28a745;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer {
+    background: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/* Ajoute des styles spécifiques pour les liens dans le footer */
+.footer a {
+    color: #337ab7; /* Assure une couleur distincte pour les liens */
+}
+
+.footer a:hover {
+    color: #23527c; /* Change de couleur au survol */
+}
+
+
